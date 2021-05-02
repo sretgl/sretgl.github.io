@@ -92,6 +92,10 @@ body{
 @media (max-width:576px) { 
     *{}
 
+.tt {
+    padding-top: 25%;
+}
+
 .navbar-default .navbar-nav > .active > a {
     background: #ded8d8;
 }
