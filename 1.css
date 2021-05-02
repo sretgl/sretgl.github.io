@@ -1,6 +1,46 @@
 *{margin: 0; padding: 0;}
 
-.khoitt:before {content: "";width: 50%;height: 100%;top: 0;left: 0;background: #e4555b;position: absolute;}
+a.nuthire.btn.btn-default {
+    width: 180px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    display: inline-table;
+    font-size: 20px;
+}
+
+.tt p {
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 10%;
+}
+
+.khoitt:before {content: "";width: 50%;height: 100%;top: 0;left: 0;background: #e4555b;position: absolute;z-index: 1;}
 
 html,body {
     width: 100%;
