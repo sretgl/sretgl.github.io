@@ -1,1 +1,13 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background: none;
+    color: black;
+} 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
