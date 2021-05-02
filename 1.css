@@ -127,6 +127,16 @@ body{
 @media (max-width:576px) { 
     *{}
 
+h2.tieudecap2 {
+    margin-top: 15px;
+}
+
+.cot1, .cot3 {
+    text-align: center;
+}
+
+.tieudeto h1:after {display: none;}
+
 .tt {
     padding-top: 25%;
 }
