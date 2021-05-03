@@ -1,5 +1,12 @@
 *{margin: 0; padding: 0;}
 
+.footer p {
+    margin: 0;
+}
+
+.container {
+}
+
 .footer {
     background: #3e3e3e;
     color: white;
@@ -153,6 +160,14 @@ body{
 /* css cho di dong */
 @media (max-width:576px) { 
     *{}
+
+.khoicmt h1.text-center {
+    font-size: 30px;
+}
+
+.edu h1 {
+    font-size: 24px;
+}
 
 h2.tieudecap2 {
     margin-top: 15px;
